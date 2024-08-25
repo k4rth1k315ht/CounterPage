@@ -1,0 +1,66 @@
+
+
+body {
+   
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    display: flex;
+    
+    
+    height: 100vh;
+}
+
+.counter-container {
+    margin-left: 20px; 
+    
+}
+
+#p1 {
+    font-size: 2.5rem;
+}
+
+.count-text {
+    
+    margin-bottom: 10px;
+}
+
+.underline {
+    width: 50%; /* Underline is only as wide as the text */
+   
+    margin-left: 0px;
+    border: 1px solid #fff; /* White underline */
+}
+
+.error {
+    color: red;
+    margin: 10px 0;
+    display: none;
+}
+
+.button-row {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    color: #000; /* Black text inside buttons */
+}
+
+#increment, #decrement {
+    background-color: #fff; /* White buttons */
+    color: #000; /* Black text */
+}
+
+#clear {
+    background-color: #000; /* Black button */
+    color: #fff; /* White text */
+    border: 1px solid #fff; /* White border */
+}
